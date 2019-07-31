@@ -6,6 +6,7 @@ $(document).ready(function () {
     var cakeId = getUrlVars()["cakeid"];
     getCake(cakeId);
     getReviews();
+    bindSubmitTransaction(cakeId);
 });
 
     let today = new Date();
@@ -64,32 +65,31 @@ function deleteReview(id) {
     });
 }
 
-function addTransaction() {
-    var cakeId = getUrlVars()["cakeid"];
-    var formData = new FormData();
+function bindSubmitTransaction(cakeId) {
+    $(".btn-primary").on("click", function () {
 
-    formData.append("Buyer", $("#Buyer").val());
-    formData.append("Quantity", $("#Quantity").val());
-    formData.append("CakeId", cakeId);
+        const transaction = {
+            cakeId: cakeId,
+            Quantity: $("#Quantity").val(),
+            Buyer: $("#Buyer").val(),
+        };
 
-    $.ajax({
-        type: "POST",
-        url: transactionControllerUri + "PostTransaction",
-        processData: false,
-        contentType: false,
-        data: formData,
-        mimeType: "multipart/form-data",
-        cache: false,
-        error: function (jqXHR, textStatus, errorThrown) {
-            alert("Something went wrong!");
-        },
-        success: function (result) {
-            alert("transaction was added successfully!");
-            location.reload();
-        }
+        $.ajax({
+            type: "POST",
+            accepts: "application/json",
+            url: transactionControllerUri + "PostTransaction",
+            contentType: "application/json",
+            data: JSON.stringify(transaction),
+            error: function (jqXHR, textStatus, errorThrown) {
+                alert("Something went wrong!");
+            },
+            success: function (result) {
+                alert("The transaction was executed with succes.");
+            }
+        });
+
+        return false;
     });
-
-    return false;
 }
 
 function addReview() {

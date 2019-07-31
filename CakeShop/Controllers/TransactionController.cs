@@ -27,7 +27,7 @@ namespace CakeShop.Controllers
 
         [HttpPost]
         [Route("PostTransaction")]
-        public async Task<ActionResult<Transaction>> PostTransaction([FromForm] TransactionBindingModel transactionBindingModel)
+        public async Task<ActionResult<Transaction>> PostTransaction(TransactionBindingModel transactionBindingModel)
         {
             try
             {

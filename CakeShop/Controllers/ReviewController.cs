@@ -35,7 +35,7 @@ namespace CakeShop.Controllers
         // POST: api/review
         [HttpPost]
         [Route("PostReview")]
-        public async Task<ActionResult<Review>> PostReview([FromForm] ReviewBindingModel reviewBindingModel)
+        public async Task<ActionResult<Review>> PostReview([FromForm]ReviewBindingModel reviewBindingModel)
         {
 
             try
