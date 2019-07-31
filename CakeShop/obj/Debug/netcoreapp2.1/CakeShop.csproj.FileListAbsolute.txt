@@ -1,0 +1,14 @@
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\bin\Debug\netcoreapp2.1\CakeShop.deps.json
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\bin\Debug\netcoreapp2.1\CakeShop.runtimeconfig.json
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\bin\Debug\netcoreapp2.1\CakeShop.runtimeconfig.dev.json
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\bin\Debug\netcoreapp2.1\CakeShop.dll
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\bin\Debug\netcoreapp2.1\CakeShop.pdb
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\obj\Debug\netcoreapp2.1\CakeShop.csprojAssemblyReference.cache
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\obj\Debug\netcoreapp2.1\CakeShop.csproj.CoreCompileInputs.cache
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\obj\Debug\netcoreapp2.1\CakeShop.RazorAssemblyInfo.cache
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\obj\Debug\netcoreapp2.1\CakeShop.RazorAssemblyInfo.cs
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\obj\Debug\netcoreapp2.1\CakeShop.AssemblyInfoInputs.cache
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\obj\Debug\netcoreapp2.1\CakeShop.AssemblyInfo.cs
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\obj\Debug\netcoreapp2.1\CakeShop.RazorTargetAssemblyInfo.cache
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\obj\Debug\netcoreapp2.1\CakeShop.dll
+C:\Users\spr_a_000\source\repos\CakeShop\CakeShop\obj\Debug\netcoreapp2.1\CakeShop.pdb
